@@ -1,0 +1,19 @@
+
+main{
+    width: 100%;
+    height: 700px;
+}
+
+
+.main_login{
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+    color: #000000;
+    text-align: center;
+    top: 30%;
+    transform: translate(0, 50%);
+    position: relative;   
+}
+
+

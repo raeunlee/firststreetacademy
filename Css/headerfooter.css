@@ -1,0 +1,397 @@
+/*header*/
+#wrap{
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header{
+   width: 100%;
+}
+
+.h_top{
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1200px;
+    background-color: #3a727f;
+    z-index: 99;
+}
+.btn_menu{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+}
+.btn_menu div{
+        width: 32px;
+        height: 3px;
+        background-color: #fff;
+        margin: 7px 10px;
+}
+.consult_btn a{
+    display: inline-block;
+}
+
+
+.buy_btn1{
+    border-radius: 4px;
+    border: 1px solid #f74440;
+    transition: all 0.5s;
+    padding: 13px;
+    margin: 5px;
+    width: 60px;
+    height: 10px;
+    background-color: #f74440; 
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 18px 0 0 0;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.buy_btn1{
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  text-align: center;
+  color: #fff;
+    /*text-shadow: 0 0 4px rgba(0, 0, 0, 0.3);*/
+  font-size: 14px;
+  line-height: 10px;
+}
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0c5061;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.sidenav .tits img{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.sidenav .menu_bar>a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #818181;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.icons{
+    margin-top: 25px;
+    border-top: 1px solid #A3A1A1;
+    padding: 5px;
+}
+
+.icons div{
+    display: inline-block;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.icons div>a>img{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+
+
+
+h1>a>img{
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+}
+h1{
+    width: 250px;
+    margin: auto;
+}
+.nav_br{
+    position: absolute;
+    right: 0;
+    width: 700px;
+}
+.nav_br ul>li{
+    float: right;
+    right: 30px;
+    line-height: 80px;
+    margin-left: 10px;
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+}
+.nav_br ul>li>a{
+    color: #fff;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.sm_logo{
+    display: none;
+}
+
+.phone_call .call{
+    margin-left: 20px;
+}
+.call i{
+    margin-right: 15px;
+}
+.call i>img{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.edu a{
+    position: relative;
+    top: 25px;
+    margin-right: 12px;
+}
+.edu a>img{
+    width: 28px;
+    height: 28px;
+}
+.blg_imo a{
+    position: relative;
+    top: 26px;
+}
+.blg_imo a>img{
+    width: 32px;
+    height: 28px;
+}
+.login_btn a{
+    margin-right: 20px;
+}
+
+/*main started*/
+
+main>section{
+    width: 100%;
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #173F5F;
+}
+#footer{
+    width: 1200px;
+    margin: auto;
+}
+#footer .footer_wrap>ul{
+    overflow: hidden;
+    border-bottom: 1px solid #A3A1A1;
+}
+#footer .footer_wrap>ul li{
+    float: left;
+    height: 62px;
+    line-height: 62px;
+    padding: 0 22px 0 21px;
+    background: url(../Img/gnb_bar.gif) right center no-repeat;
+}
+#footer .footer_wrap>ul li>a{
+    color: #fff;
+    font-size: 14px;
+     font-family: 'Noto Sans KR', sans-serif;
+}
+
+#footer .footer_wrap .sns li.kakao {
+    background-position: -26px 0;
+}
+.logo_footer{
+    display: inline-block;
+    
+}
+.logo_footer img{
+    margin-top: 10px;
+    width: 90px;
+    height: 50px;
+}
+.footer_wrap2{
+    display: inline-block;
+    position: relative;
+    margin-left: 900px;
+}
+#footer .sns{
+    float: right;
+    
+}
+#footer .sns li{
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.kakao a>img{
+    width: 30px;
+    height: 29px;
+}   
+.blog a>img{
+    width: 30px;
+    height: 29px;
+}
+.youtube a>img{
+    width: 28px;
+    height: 29px;
+}
+.instagram a>img{
+   width: 28px;
+    height: 29px; 
+}
+
+
+/*Mobile용*/
+    @media only screen and (max-width: 960px) and (min-width: 0) {
+   #wrap{
+            position: relative;
+            width: 100%;
+        }
+        
+    .h_top {
+        max-width: 100% !important;
+        height: 54px;
+         
+    }
+    .btn_menu div{
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        margin: 7px 10px;
+}
+    .nav_box h1{
+        display: none;
+    }
+    
+    
+    .btn_menu{
+        left: 10px;
+    }
+    
+    
+    .topnav.responsive a {
+     float: none;
+     display: block;
+     text-align: left;
+  }
+        .nav_br{
+            position: relative;
+            margin: auto;
+        }
+        .nav_br ul .phone_call{
+            position: absolute;
+            right: 590px;
+            top: -55px;
+        }
+        .nav_br ul .phone_call a{
+            font-size: 12px;
+        }
+        .nav_br ul .phone_call a>i>img{
+            width: 18px;
+            height: 28px;
+        }
+   
+    
+    .nav_box{
+        background-image:url(../Img/logo_960pix@2x.png) center center no-repeat;
+        background-size: 133px 30px;
+        background-position: center;
+        overflow: hidden;
+        z-index: 999;
+        margin-left: 55px;
+    }    
+      .sm_logo{
+        display: block;
+        width: 133px;
+        height: 34px;
+        padding: 5px 5px;
+        margin-left: 60px;
+    }
+    
+    
+    
+   
+    
+    section>article{
+        width: 100%;
+    }
+    
+    /*main*/
+    
+    
+   
+    
+    
+    
+    
+    
+    #footer{
+            width: 100%;
+        }
+        .logo_footer{
+        padding: 0 2%;
+    }
+    .inner{
+        max-width: 480px;
+        padding: 10px 0px 50px;
+}    
+
+ #footer .footer_wrap2{
+            position: relative;
+            margin-left: 40px;
+        }
+        
+        #footer .footer_wrap>ul li>a{
+    
+    font-size: 10px;
+    
+}
+        #footer .footer_wrap2 .sns li a{
+         
+         text-indent: -9999px;
+        }
+}
